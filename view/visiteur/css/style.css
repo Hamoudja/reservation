@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+}
+body ,html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    font-family: 'Raleway',sans-serif;
+}
+
+a , a:hover{
+text-decoration: none;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+.header{
+
+    background-color:#F9591D;
+    height: 100px;
+    line-height: 70px;
+    
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+   letter-spacing: 1px;
+    font-weight: bold; 
+    float: left;
+    
+}
+
+.menu{
+
+    float:right;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    
+}
+
+.banner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban{
+    width: 100%;
+    max-width: 100%;
+  
+
+}
+
+.ban img{
+    width: 100%;
+    height: 600px;
+    
+
+}
+
+.inner-banner{
+   
+    top: 50%;
+    width: 100%;
+    max-width: 100% ;
+    text-align: center;
+}
+
+.inner-banner h1{
+    color: white;
+    text-shadow: 1px , 1px ,20px , #000000;
+}
+
+.inner-banner p{
+    color: white;
+    text-shadow: 1px , 1px ,20px , #000000;
+}
+
+.inner-banner .btn-custom{
+    background-color: #F9591D;
+    color: white;
+}
+
+.separator{
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background-color: #F9591D;
+}
+
+#about{
+    text-align: center;
+}
+
+
+.about article h2{
+    text-align: center;
+}
+
+.reservation h2{
+    text-align: center;
+}
+.reservation .btn-custom{
+    background-color: #F9591D;
+    color: white;
+}
+.footer h2{
+    text-align: center;
+}
+#contact{
+    color: black;
+    text-align: center;
+}
+.footer .btn-custom{
+
+    background-color: #F9591D;
+    color: white;
+}
+.form-horizontal{
+    position:center;
+}
